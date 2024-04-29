@@ -1,0 +1,104 @@
+footer {
+    color: #fff;
+    background-color: var(--navigation-colour);
+    margin-top: 3.75em;
+
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjusted to 4 columns */
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer ul, li {
+    text-align: center;
+    padding-left: 0;
+}
+
+.footer-socials {
+    padding: 1em 0;
+}
+
+.social-links i {
+    color: #ffffff; 
+    transition: color 0.3s ease;
+    font-size: 2em;
+}
+
+.footer-socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.footer-socials ul::before,
+.footer-socials ul::after {
+    content: "";
+    border-top: 1px solid #ffffff;
+    width: 32.1%;
+    margin: 0 auto;
+    height: 1px;
+    position: relative;
+    top: 50%;
+}
+
+.footer-socials ul::before {
+    margin-right: 10px;
+}
+
+.footer-socials ul::after {
+    margin-left: 10px;
+}
+
+.footer-socials li {
+    margin: 0 10px;
+}
+
+.facebook i:hover {
+    color: #3b5998; /* Facebook's brand color */
+}
+
+.instagram i:hover {
+    color: #C13584; /* Instagram's brand color */
+}
+
+.twitter i:hover {
+    color: #1DA1F2; /* Twitter's brand color */
+}
+
+.linkedin i:hover {
+    color: #0077b5; /* LinkedIn's brand color */
+}
+
+.youtube i:hover {
+    color: #FF0000; /* YouTube's brand color */
+}
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    footer {
+        font-size: 14px;
+    }
+
+
+    .footer-wrapper {
+        grid-template-columns: 1fr; /* Adjust to 1 column for very small screens */
+    }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Us!</title>
+
+    <link type="image/png" sizes="32x32" rel="icon" href="../img/icons/favicon.ico">
+    <link type="image/png" sizes="96x96" rel="icon" href="../img/icons/favicon.ico">
+    <link type="image/png" sizes="16x16" rel="icon" href="../img/icons/favicon.ico">
+
+    <link rel="stylesheet" href="../css/normalise.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="../scripts/navbar-scroll.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header class="header" id="nav">
+
+            <!-- Logo -->
+            <h1 class="logo">CI453</h1>
+
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu">
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+            <!-- Menu -->
+
+            <div class="dropdown">
+                <button class="dropbtn">Topics
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="topics/backups.html">Backups</a>
+                    <a href="topics/social-media-awareness.html">Social Media Awareness</a>
+                    <a href="topics/linkability.html">Linkability</a>
+                    <a href="topics/physical-security.html">Physical Security</a>
+                    <a href="topics/social-engineering.html">Social Engineering</a>
+                    <a href="topics/legal.html">Legal & Ethics</a>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <div class="menu">
+                    <a href="../index.html">Home</a>
+                    <a href="quiz.html">Quiz</a>
+                    <a href="contact.html">Contact Us</a>
+                    <div class="menu hidden-menu">
+                        <h2>Topics</h2>
+                        <a href="topics/backups.html">Backups</a>
+                        <a href="topics/social-media-awareness.html">Social Media Awareness</a>
+                        <a href="topics/linkability.html">Linkability</a>
+                        <a href="topics/physical-security.html">Physical Security</a>
+                        <a href="topics/social-engineering.html">Social Engineering</a>
+                        <a href="topics/legal.html">Legal & Ethics</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section>
+                <h2>Contact Us</h2>
+                <p>If you have any questions, suggestions, or just want to say hello, feel free to contact us using the
+                    form below.</p>
+            </section>
+
+            <form method="post" action="" aria-labelledby="form-heading">
+                <fieldset>
+                    <legend id="form-heading" class="visually-hidden">Contact Form</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">United Kingdom</option>
+                        <option value="canada">Australia</option>
+                        <option value="usa">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+                    <input type="submit" value="Submit" aria-label="Submit Form">
+                </fieldset>
+            </form>
+        </main>
+    </div>
+
+    <footer id="website-footer">
+
+        <div class="footer-socials">
+            <h4>Follow Us</h4>
+            <ul style="list-style-type:none;">
+                <li><a href="https://www.facebook.com/" class="social-links facebook" target="_blank"><i
+                            class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/" class="social-links instagram" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com/" class="social-links twitter" target="_blank"><i
+                            class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/" class="social-links linkedin" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/" class="social-links youtube" target="_blank"><i
+                            class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-wrapper">
+
+            <div class="footer-content">
+                <h4>Resources Used</h4>
+                <ul style="list-style-type:none;">
+                    <li><a href="https://iconscout.com/" class="credit-links" target="_blank">Iconscout</a></li>
+                    <li><a href="https://www.vecteezy.com/" class="credit-links" target="_blank">Vecteezy</a></li>
+                    <li><a href="https://pixabay.com/" class="credit-links" target="_blank">Pixabay</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h4>References</h4>
+                <ul style="list-style-type:none;">
+                    <li><a href="https://www.nist.gov/" class="credit-links" target="_blank">NIST Website</a></li>
+                    <li><a href="https://www.w3schools.com/" class="credit-links" target="_blank">w3schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/" class="credit-links" target="_blank">MDN
+                            Docs</a>
+                    </li>
+                    <li><a href="https://gdpr-info.eu/" class="credit-links" target="_blank">GDPR Info</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h4>Need help?</h4>
+                <ul style="list-style-type:none;">
+                    <li><a href="page/contact.html" class="credit-links">Contact Us!</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h4>Legal</h4>
+                <ul style="list-style-type:none;">
+                    <li><a href="#" class="credit-links"
+                            onclick="alert('This Privacy Policy is here for demonstrative purposes.'); return false;">Privacy
+                            Policy</a></li>
+                    <li><a href="#" class="credit-links"
+                            onclick="alert('These Terms of Use are here for demonstrative purposes.'); return false;">Terms
+                            of Use</a></li>
+                </ul>
+            </div>
+    </footer>
+</body>
+
+</html>
