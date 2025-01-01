@@ -8,4 +8,4 @@ The goal was to create an educational website appropriate for an age group of 11
 
 There is also a quiz which pulls from a list of 40 questions, the same question won't get asked twice so you can do it four times before the list resets. The position of answers was also randomised.
 
-See it live here: https://jf960.brighton.domains/CI453-Site/index.html
+See it live here: https://jakefranklin1.github.io/CI453-Site-main/
